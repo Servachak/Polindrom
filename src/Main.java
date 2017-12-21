@@ -13,7 +13,7 @@ public class Main {
 
         int [] arrayTwo = simpleNumbers.createSimpleNumbers(5);
 
-       int [][] multiplicationArray =  buildMultiplicationArray.multiplication(arrayOne,arrayTwo);
+       long [][] multiplicationArray =  buildMultiplicationArray.multiplication(arrayOne,arrayTwo);
 
         System.out.println();
         for (int i = 0; i < multiplicationArray.length; i++){

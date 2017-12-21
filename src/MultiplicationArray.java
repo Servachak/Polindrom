@@ -3,5 +3,5 @@
  */
 public interface MultiplicationArray {
 
-    int [][] multiplication(int []a, int []b);
+    long [][] multiplication(int []a, int []b);
 }

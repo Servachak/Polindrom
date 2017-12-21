@@ -5,9 +5,9 @@ import java.util.Arrays;
  */
 public class BuildMultiplicationArray implements MultiplicationArray {
     @Override
-    public int[][] multiplication(int[] a, int[] b) {
+    public long[][] multiplication(int[] a, int[] b) {
 
-        int [][] multArray = new int[a.length][ b.length];
+        long [][] multArray = new long[a.length][ b.length];
 
             for (int i = 0; i < a.length; i++){
 
